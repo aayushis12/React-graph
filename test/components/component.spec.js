@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import React from 'react';
 import { expect } from 'chai';
 import { mount, shallow, render } from 'enzyme';
-import { App } from '../../js/app.js';
+import { App } from '../../public/js/app.js';
 import sinon from 'sinon';
 var dispatch = function() {
    console.log('>>>>>>>> Mocking dispatch ');
