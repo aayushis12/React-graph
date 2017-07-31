@@ -10,11 +10,11 @@ import sinon from 'sinon';
 var dispatch = function() {
    console.log('>>>>>>>> Mocking dispatch ');
 };
-// var props = {
-//    dispatch: dispatch,
-//    routeParams: {test_id: 1},
-//    tests_rdcr: {}
-//   };
+var props = {
+   dispatch: dispatch,
+   routeParams: {test_id: 1},
+   tests_rdcr: {}
+  };
 describe('App', function () {
 it('App calls check', () => {
      sinon.spy(App.prototype, 'check');
