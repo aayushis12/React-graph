@@ -5,7 +5,7 @@ import propTypes from 'prop-types';
 import {Display} from './Display.js';
 import {DonutChart} from './DonutChart.js'
 
-class App extends React.Component{
+export class App extends React.Component{
   constructor(props){
     super(props);
     this.state={
